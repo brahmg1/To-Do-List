@@ -16,13 +16,13 @@
     <main class="app">
         
         <section class="greeting">
-            <!-- <h2 class="title">
-                  
-            </h2> -->
+            <h2 class="title">
+                  Hello, <input type="text" id="name" placeholder="Name here" />
+            </h2>
         </section>
 
         <section class="create-todo">
-            <h3>Create A Reminder</h3>
+            <h3>Create A Task</h3>
 
             <form id="new-todo-form">
                 <h4>What would you like on your list?</h4>
@@ -32,32 +32,21 @@
                 id="content" 
                 placeholder="e.g. make a video" />
 
-                <h4>Choose a Type of Reminder</h4>
+                <h4>Choose a Type of Task</h4>
                 <div class="options">
+					<label>
+						<input type="radio" name="category" id="category1" value="personal" /> 
+						<span class="bubble personal"></span>
+						<div>Personal</div>
+					</label>
+					<label>
+						<input type="radio" name="category" id="category2" value="work" />
+						<span class="bubble work"></span>
+						<div>Work</div>
+					</label>
+				</div>
 
-                    <label>
-                        <input 
-                        type="radio" 
-                        name="category" 
-                        id="category1" 
-                        value="personal" />
-                        <span class="bubble personal"></span>
-                        <div>Personal</div>
-                    </label>
-
-                    <label>
-                        <input 
-                        type="radio" 
-                        name="category" 
-                        id="category2" 
-                        value="work" />
-                        <span class="bubble work"></span>
-                        <div>Work</div>
-                    </label>
-
-                </div>
-
-                <input type="submit" value="Add todo" />
+                <input type="submit" value="Add to do task" />
             </form>
         </section>
 
@@ -67,11 +56,11 @@
 
             <div class="list" id="todo-list">
 
-                <div class="todo-item">
+                <!-- <div class="todo-item">
                     
                     <label >
                         <input type="checkbox" />
-                        <span class="bubble personal"></span>
+                        <span class="bubble work"></span>
                     </label>
 
                     <div class="todo-content">
@@ -101,7 +90,7 @@
                         <button class="delete">Delete</button>
                     </div>
 
-                </div>
+                </div> -->
 
             </div>
 
