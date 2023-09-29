@@ -10,5 +10,4 @@
 
  ## Screenshot
 
-<img width="1440" alt="Screen Shot 2022-01-09 at 8 25 56 PM" src="https://user-images.githubusercontent.com/94041281/166855223-c46bb998-00ca-4c2f-b976-b2f8a57b43ee.png">
- 
+ ![To-Do-List-Application](https://github.com/brahmg1/To-Do-List/assets/94041281/5450c61b-19d7-40d1-8494-5f366d847e98)
